@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha RPG</title>
+    <style>
+        .container {
+            border: 2.3px outset rgba(229, 255, 0, 0.432);
+            background-color: #2d2d2d;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(211, 122, 7);
+        }
+
+        h2 {
+            color: rgba(211, 123, 7, 0.507);
+        }
+        h3 {
+            color: rgb(211, 122, 7);
+        }
+
+        h4 {
+            color: rgb(211, 122, 7);
+            text-align: center;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: aliceblue;
+        }
+        table {
+            border: 2px outset  #e93e3e98;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sunwalker</h1>
+        <h2>Raça: Orc | Classe: Bardo/Viajante</h2>
+        <h3>Status: Preocupado </h3>
+    </div><br>
+
+    <img src="sunwalker.png" alt="O Cantor barulhento"
+    width="150" height="150">
+
+    <h1>| História</h1>
+    <p> Sunwalker não foi expulso por ser fraco, mas por ser barulhento demais.
+        Ele descobriu a Trombeta da Melodia em uma ruína antiga e, ao tocá-la, 
+        acidentalmente fez com que todos os estoques de carne da tribo dançassem até apodrecer.
+        O que o motiva a buscar a música que possa consertar o que ele quebrou e provar ao chefe
+        da tribo que a música não é apenas caos, mas uma forma de arte respeitavel.
+    </p>
+
+    <h1>| Mochila / Itens</h1>
+    <ul>
+        <li><strong>Sapato Deslizante</strong></li>
+        <li><strong>Trombeta da Melodia</strong></li>
+        <li><strong>Frasco de Eco Preservado</strong></li>
+        <li><strong>Capa de Pele de Vento</strong></li>
+        <li><strong>Medalhão de Ressonância</strong></li>
+    </ul>
+
+    <h1>| Atributos</h1>
+    <h2>Pts Max: 20</h2>
+
+    <table border="1">
+        <tr>
+            <th>FOR</th>
+            <th>DES</th>
+            <th>INT</th>
+            <th>MANA</th>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>14</td>
+            <td>10</td>
+            <td>16</td>
+        </tr>
+    </table>
+
+    <h4>RECRUTAMENTO</h4>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id-="nome" name="nome">
+        <br><br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome">
+        <br><br>
+        <input type="radio" name="sex" id="masc"/>
+        <label for="masc">Masculino</label>
+        <br></br>
+        <input type="radio" name="sex" id="Fem"/>
+        <label for="masc">Feminino</label>
+        <br></br>
+        <textarea rows="3" cols="40">Fala sobre você...</textarea>
+        <br></br>
+        <input type="submit" value="Enviar">
+        <input type="Reset" value="Limpar">
+    </form>
+</body>
+</html>
